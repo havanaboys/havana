@@ -1,0 +1,15 @@
+How to create repository in Github
+1. Click new repository and fillup the form 
+2. Make it public and add READme file
+
+How to get file from Github Repository
+1. Copy the https from clone/download green button
+2. Command: git remote add origin "https.yourfilename.git"
+3. Command: git pull origin master
+
+How to add new file 
+1. Before adding a file, get update first.
+2. Command: git pull origin master
+3. Then git add . (when you have to add many files) or git add filename.format
+4. Then git commit -m "my messsage-jeddat"
+5. Then git push origin master
